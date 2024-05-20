@@ -29,9 +29,19 @@
   .navbar-brand {
     font-weight: bold;
     font-size: 40px;/* Made logo bold */
-    color: white;
+    color: wheat;
     margin-right: 100px; /* Added margin-right to create padding between brand and menu items */
   }
+
+
+.btn-primary {
+  
+  background-color: wheat !important;
+  color: #000;
+  
+}
+
+
   .HPtext {
     color: #fff;
     padding: 30px;
