@@ -1,0 +1,50 @@
+.hero-image {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 20px 0;
+  }
+  .navbar-nav .nav-link, .login-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Increased font size */
+    padding: 10px 20px; /* Added padding */
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 40px;/* Made logo bold */
+    color: ivory;
+  }
+  .HPtext {
+    color: #fff;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    text-align: left;
+    margin-left: 100px; /* Moved slightly to the right */
+    margin-top: -100px; /* Moved up */
+  }
+  .HPtext h3 {
+    font-size: 5rem;
+  }
+  /* Media queries for mobile */
+  @media (max-width: 768px) {
+    .hero-image {
+      height: 500px;
+    }
+    .HPtext {
+      margin-left: 50px; /* Adjusted margin for mobile */
+      margin-top: -100px; /* Adjusted margin for mobile */
+    }
+  }
