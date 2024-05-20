@@ -30,7 +30,7 @@
   .HPtext {
     color: #fff;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    /*! background: rgba(0, 0, 0, 0.5); */ /* Semi-transparent background */
     text-align: left;
     margin-left: 100px; /* Moved slightly to the right */
     margin-top: -100px; /* Moved up */
